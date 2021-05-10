@@ -1,0 +1,9 @@
+.loadingScreen {
+  display: flex;
+  height: 100vh;
+  background: #fff;
+}
+
+.loadingScreen > img {
+  margin: auto;
+}
