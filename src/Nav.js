@@ -21,18 +21,18 @@ const Nav = () => {
   }, []);
   return (
     <div className={`nav ${show && 'nav__black'}`}>
-      <div className='nav__contents'>
+      <div className="nav__contents">
         <img
           onClick={() => history.push('/')}
-          className='nav__logo'
+          className="nav__logo"
           src={Logo}
-          alt='amazon'
+          alt="amazon"
         />
         <img
           onClick={() => history.push('/profile')}
-          className='nav__avatar'
-          src='https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png'
-          alt=''
+          className="nav__avatar"
+          src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+          alt=""
         />
       </div>
     </div>

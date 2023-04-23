@@ -9,24 +9,24 @@ import PlansScreen from './PlansScreen';
 const ProfileScreen = () => {
   const user = useSelector(selectUser);
   return (
-    <div className='profileScreen'>
+    <div className="profileScreen">
       <Nav />
-      <div className='profileScreen__body'>
+      <div className="profileScreen__body">
         <h1>Edit Profile</h1>
-        <div className='profileScreen__info'>
+        <div className="profileScreen__info">
           <img
-            src='https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png'
-            alt=''
+            src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+            alt=""
           />
-          <div className='profileScreen__details'>
+          <div className="profileScreen__details">
             <h2>{user.email}</h2>
-            <div className='profileScreen__plans'>
+            <div className="profileScreen__plans">
               <h3>Plans</h3>
 
               <PlansScreen />
               <button
                 onClick={() => auth.signOut()}
-                className='profileScreen__signOut'
+                className="profileScreen__signOut"
               >
                 Sign Out
               </button>
